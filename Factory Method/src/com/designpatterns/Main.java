@@ -15,6 +15,8 @@ public class Main {
             System.out.println("LLD Course Length: " + module.getLength());
         });
         assert HLD != null;
+
+
         HLD.getModules().forEach(module -> {
             System.out.println("HLD Course Name: " + module.getName());
             System.out.println("HLD Course Length: " + module.getLength());
